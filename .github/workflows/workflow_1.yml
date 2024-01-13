@@ -20,7 +20,7 @@ jobs:
               run: |
                   echo "Executing test"
                   npm test
-            - name: Run test
+            - name: Run build
               run: |
                   echo "Executing build"
                   npm run build
